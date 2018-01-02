@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/talyssonoc/react-katex",
   "main": "dist/react-katex.js",
-  "module": "src/index.js",
+  "module": "dist/react-katex.js",
   "scripts": {
     "build": "npm run build-normal && npm run build-mini",
     "build-normal": "rollup -c --environment NODE_ENV:production",
