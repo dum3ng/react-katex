@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import createMathComponent from './createMathComponent';
 
 const InlineMath = ({ html }) => {
-  return <span dangerouslySetInnerHTML={{__html: html}} />;
+  return (
+     <span dangerouslySetInnerHTML={{__html: html}} />
+    );
 };
 
 InlineMath.propTypes = {
